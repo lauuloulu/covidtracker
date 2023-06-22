@@ -1,11 +1,15 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import ContainerCard from './components/FlagContainer'
+
 
 function App() {
   
 
   return (
     <>
-    <h1>hola mundo</h1>
+    <Navbar></Navbar>
+    <ContainerCard></ContainerCard>
     </>
   )
 }
