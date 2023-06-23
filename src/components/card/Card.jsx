@@ -1,5 +1,6 @@
 import './Card.css'
 
+
 function Card({ title, counter }) {
     return (
         <>
@@ -8,5 +9,7 @@ function Card({ title, counter }) {
         </>
     )
 }
+
+
 
 export default Card
