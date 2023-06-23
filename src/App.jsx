@@ -1,6 +1,6 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import ContainerCard from './components/FlagContainer'
+import ContainerCard from './components/flagContainer/FlagContainer'
+import CustomNav from './components/navBar/NavBar'
 
 
 function App() {
@@ -8,8 +8,17 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
-    <ContainerCard></ContainerCard>
+    
+    <ContainerCard></ContainerCard> 
+    <CustomNav
+    li={[
+        ["Covid"],
+        ["Covid"],
+        ["Covid"],
+        ["Covid"],
+        ["Covid"]
+      ]}
+     />
     </>
   )
 }

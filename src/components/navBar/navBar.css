@@ -1,0 +1,50 @@
+
+.navbar-menu {
+    height:100vh;
+    background-color: rgb(254, 252, 252);
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.808);
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+  }
+  .burger{
+    display:flex;
+    flex-direction: column;
+    height: 10px;
+    width: 60px;
+    
+
+  }
+  .burger img {
+    padding: 25px 8px 0px 0px;
+    cursor: pointer;
+  }
+  .navbar__list {
+    list-style-type: none;
+    
+  }
+  .navbar__li {
+    display: inline-block;
+    padding:0px 0px 0px 12px;
+    position: relative;
+    top:2.5px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color:black;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+  .navbar__li-box:first-child {
+    margin-top:53px;
+    
+  }
+  .navbar__li-box {
+    height: 43px;
+    margin-top:15px;
+  }
+  .navbar__li-box:hover {
+    border-left: 7px solid rgb(50, 23, 157);
+    cursor: pointer;
+  }
