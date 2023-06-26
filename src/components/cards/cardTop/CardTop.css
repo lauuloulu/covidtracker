@@ -9,7 +9,6 @@
 }
 
 .imagen{
-    background-color: blue;
     display: flex;
     margin-left: 10px;
     margin-top: 5px;
@@ -18,14 +17,12 @@
 }
 
 .textPais {
-    background-color: chartreuse;
     margin-right: 150px;
     
     
 }
 
 .textDato {
-    background-color: darkgoldenrod;
     margin-right: 10px;
     
 }
