@@ -1,6 +1,5 @@
 import { useState } from "react";
 import './navBar.css'
-
 const CustomNav = ({ li }) => {
   const [window, setWindow] = useState(false);
 
@@ -19,15 +18,14 @@ const CustomNav = ({ li }) => {
       <ul className="navbar__list">
         {li.map((item, i) => (
           <div className="navbar__li-box" key={i}>
-            <img
-              src={item[1]}
-              alt={item[1]}
+            <img src='./src/assets/icon-chart.png' alt="chart"
               style={{ paddingLeft: window === false ? 27 : 17 }}
             />
             <li
               className="navbar__li"
               style={{ display: window === false ? "inline-block" : "none" }}
             >
+              
               {item[0]}
             </li>
           </div>

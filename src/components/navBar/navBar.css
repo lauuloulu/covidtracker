@@ -1,12 +1,13 @@
 
 .navbar-menu {
-    height:100vh;
-    background-color: rgb(254, 252, 252);
+    background-color: rgb(243, 243, 243);
     box-shadow: 1px 1px 7px rgba(242, 241, 245, 0.808);
     transition: all 0.5s ease;
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
+    
+  
   }
   .burger{
     display:flex;

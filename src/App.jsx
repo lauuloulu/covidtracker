@@ -10,7 +10,7 @@ function App() {
     
     <CustomNav
     li={[
-        ["Covid"],
+        ['Covid'],
         ["Covid"],
         ["Covid"],
         ["Covid"],
