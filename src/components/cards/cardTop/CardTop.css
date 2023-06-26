@@ -3,4 +3,25 @@
    width:80%;
    border-radius: 10px;
    display:flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+
+.imagen{
+    background-color: blue;
+    display: flex;
+   
+    
+}
+
+.textPais {
+    background-color: chartreuse;
+    
+    
+    
+}
+
+.textDato {
+    background-color: darkgoldenrod;
+    
 }
