@@ -1,27 +1,31 @@
 .cardTop {
-   background-color: aqua; 
-   width:80%;
+   background-color: whitesmoke; 
+   width:40%;
    border-radius: 10px;
    display:flex;
    flex-direction: row;
-   flex-wrap: nowrap;
+   justify-content: space-between;
+   box-shadow: 10px 10px 100px;
 }
 
 .imagen{
     background-color: blue;
     display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
    
-    
 }
 
 .textPais {
     background-color: chartreuse;
-    
+    margin-right: 150px;
     
     
 }
 
 .textDato {
     background-color: darkgoldenrod;
+    margin-right: 10px;
     
 }

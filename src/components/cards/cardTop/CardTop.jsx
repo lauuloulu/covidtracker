@@ -4,7 +4,7 @@ export default function CardTop() {
 
     <div className="cardTop">
       <div className="imagen">
-        <img src="" alt="bandera país" />
+        <img src="./src/assets/covid-blue còpia.svg" height={50} width={50} alt="bandera país" />
       </div>
       <p className="textPais">Colombia</p>
       <p className="textDato">7547854786547</p>
@@ -12,7 +12,3 @@ export default function CardTop() {
 
   )
 }
-
-
-
-
