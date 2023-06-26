@@ -5,13 +5,16 @@ function Main() {
     return(
         <>
             <div id="main">
-                <Card title='Title' counter='1234'/>
-                <Card title='Title2' counter='2'/>
-                <Card title='Title3' counter='3'/>
-                <Card title='Title4' counter='4'/>
+                <Card title='Total Cases' counter='1231324124'/>
+                <Card title='Total Deaths' counter='212341'/>
+                <Card title='Total Recovered' counter='3123421'/>
+                <Card title='Total Active' counter='4123412'/>
+                <Card title='New Cases' counter='44312'/>
+                <Card title='New Deaths' counter='123414'/>
             </div>
         </>
     )
 }
+
 
 export default Main
