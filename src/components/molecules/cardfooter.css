@@ -1,0 +1,38 @@
+.cardfoot{
+    background-color: whitesmoke; 
+   width:35%;
+   border-radius: 10px;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   box-shadow: 0 0 90px 6px #CEEBF6;
+}
+
+.imagefoot{
+
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.textfoot{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.texttitle{
+    margin-right: 100px;
+    font: 120% sans-serif;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.textnumber{
+    font: 200% sans-serif;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
