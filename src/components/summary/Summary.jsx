@@ -1,7 +1,6 @@
 import MiriContainer from "../container/Container";
 import './summary.css'
 
-
 function Summary(){
     
     return(
