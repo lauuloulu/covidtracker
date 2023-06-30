@@ -1,15 +1,13 @@
 .cardTop {
    background-color: whitesmoke; 
-   width:40%;
-   border-radius: 10px;
+   width:100%;
+   border-radius: 0px;
    display:flex;
    flex-direction: row;
    justify-content: space-between;
    box-shadow: 10px 10px 100px;
 
 }
-
-
 
 .imagen{
     display: flex;
@@ -21,11 +19,18 @@
 
 .textPais {
     margin-right: 150px;
-    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
     
 }
 
 .textDato {
     margin-right: 10px;
     
+}
+
+.datos {
+display: flex;
+
 }

@@ -16,9 +16,7 @@ function App() {
 
   return (
     <>
-        <div>
-        {data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}
-        </div>
+       
         <Nav/>
         <Container10/>
         

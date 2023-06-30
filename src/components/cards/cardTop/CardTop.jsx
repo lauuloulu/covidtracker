@@ -5,11 +5,12 @@ export default function CardTop(props) {
 
     <div className="cardTop">
       <div className="imagen">
-        <img src="./src/assets/covid-blue còpia.svg" height={50} width={50} alt="" />
+        <img src={props.image} height={50} width={50} alt="" />
+        <p className="textPais">{props.nombre}</p>
       </div>
-      <p className="textPais">{props.country.country}</p>
-      <p className="textDato"></p>
+      <div className='datos'>
+      <p className="textDato">{props.datos}</p>
     </div>
-
+    </div>
   )
 }
