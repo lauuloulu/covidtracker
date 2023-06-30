@@ -20,6 +20,7 @@ const fetchData = async () => {
     }
 };
 
+
 fetchData();
 
     }, []);
