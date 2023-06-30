@@ -13,6 +13,7 @@ function Card({ title, counter, color }) {
                 style={{color: color}}>
                     {counter}
                 </div>
+                
                 <div className="card-icon">
                     <img src={covidImage} alt=""/>
                 </div>
