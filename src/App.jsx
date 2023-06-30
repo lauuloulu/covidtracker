@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import { useState } from 'react'
+>>>>>>> origin/features/summary
 import './App.css'
 import Nav from './components/nav/Nav'
 import Summary from './components/summary/Summary'

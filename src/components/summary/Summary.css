@@ -1,4 +1,18 @@
-#summary {
-    width: 250px;
-    background-color: rgb(255, 0, 157);
+@font-face {
+    font-family: "my font";
+    src: url("../../assets/lanenar_Lane.woff");
+}
+
+h3{
+    font-family: my font;
+    align-self: flex-start;
+    font-weight: bolder;
+    -webkit-text-stroke: 1.5px black;
+    
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
