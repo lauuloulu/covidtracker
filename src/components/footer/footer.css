@@ -1,0 +1,18 @@
+#footer {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#cardfootcontainer {
+    height: 50%;
+    width: 100%;
+    display: flex; 
+    
+
+}
+
+#cardfootcontainer > div {
+    place-self: center stretch;
+}

@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/nav/Nav'
 import Summary from './components/summary/Summary'
 import Main from './components/main/Main'
+<<<<<<< HEAD
+=======
+import Dropdown from './components/dropdown/Dropdown'
+>>>>>>> 4b23186d407aa87c115058e814faed68053b343e
 
 
 function App() {
@@ -12,7 +13,13 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
         <Nav/>
+=======
+       
+        <Nav/>
+        <Dropdown/>
+>>>>>>> 4b23186d407aa87c115058e814faed68053b343e
         <Summary/>
         <Main/>
     </>
@@ -20,6 +27,7 @@ function App() {
 }
 
 
+<<<<<<< HEAD
 
 
 function App2() {
@@ -53,4 +61,6 @@ function App2() {
   }
   
 
+=======
+>>>>>>> 4b23186d407aa87c115058e814faed68053b343e
 export default App
