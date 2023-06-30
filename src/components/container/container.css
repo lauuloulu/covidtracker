@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "my font";
+    src: url("../../assets/lanenar_Lane.woff");
+}
+
+.redstyle{
+    background-color:#FFF2F2;
+    
+}
+
+.redstyle:hover {
+    border: 2px solid red;
+}
+
+.orangestyle{
+    background-color: #FFF9F1;
+}
+
+.orangestyle:hover {
+    border: 2px solid orange;
+}
+
+.greenstyle{
+    background-color: #EDFFEC;
+}
+
+.greenstyle:hover {
+    border: 2px solid green;
+}
+
+.bluestyle{
+    background-color: #EEFBFF;
+}
+
+.bluestyle:hover {
+    border: 2px solid blue;
+}
+
+.Mirilista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+    
+}
+
+.dato2{
+    background-color: white;
+    font-size: xx-small;
+    padding: 2px;
+    align-self: center;
+    margin: 2px;
+    font-family: my font;
+}
+
+.lired {
+    font-size: larger;
+    padding: 20px;
+    align-self: center;
+    margin: 2px;
+    font-family: my font;
+    -webkit-text-stroke: 2px red;
+}
+
+.liorange {
+    font-size: larger;
+    padding: 20px;
+    align-self: center;
+    margin: 2px;
+    font-family: my font;
+    -webkit-text-stroke: 2px orange;
+}
+
+.ligreen {
+    font-size: larger;
+    padding: 20px;
+    align-self: center;
+    margin: 2px;
+    font-family: my font;
+    -webkit-text-stroke: 2px green;
+}
+
+.liblue {
+    font-size: larger;
+    padding: 20px;
+    align-self: center;
+    margin: 2px;
+    font-family: my font;
+    -webkit-text-stroke: 2px blue;
+}
+
+.Miriflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 5px 20px;
+    gap: 2px;
+
+}
+
+.Miristart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: flex-start;
+    font-family: my font;
+    font-weight: bold;
+    font-size: small;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.orangetext{
+    background-color: #ffd296
+}
+
+.greentext{
+    background-color: #47ff3d;
+}
+
+.bluetext{
+    background-color: #5ac5e6;
+}
