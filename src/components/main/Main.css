@@ -1,10 +1,12 @@
 #main {
     flex: 1 0 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+
 }
 
-#cards-container {
+#country-summary {
     height: 50%;
     width: 60%;
     display: grid;
@@ -13,6 +15,6 @@
     grid-gap: .5rem;
 }
 
-#cards-container > div {
+#country-summary > div {
     place-self: center stretch;
 }

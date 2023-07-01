@@ -13,10 +13,10 @@ function App() {
   return (
     <>
         <Nav/>
-        <Dropdown/>
+        {/* <Dropdown/> */}
         <Summary/>
         <Main/>
-        <ContainerFooter/>
+        {/* <ContainerFooter/> */}
     </>
   )
 }
