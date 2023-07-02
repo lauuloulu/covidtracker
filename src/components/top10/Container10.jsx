@@ -19,12 +19,16 @@ function Container10() {
       .catch(error => console.error(error));
   }, []);
 
+  const sortedData = countries?.sort((a, b) => b.cases - a.cases);
+  const topTenCountries = sortedData?.slice(0, 10);
+
+
     return (
         <>  <div className='padre'>
             <div>
                 <p>Top 10 Country </p>
             </div>
-            {countries.map((country, index) => (
+            {topTenCountries.map((country, index) => (
                 <CardTop key={index} nombre={country.country} datos={country.cases} image={country.countryInfo.flag}/>
             ))}
 

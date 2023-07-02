@@ -5,7 +5,7 @@ import Summary from './components/summary/Summary'
 import Main from './components/main/Main'
 import Dropdown from './components/dropdown/Dropdown'
 import ContainerFooter from './components/footer/Footer'
-
+import Container10 from './components/top10/Container10'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +13,7 @@ function App() {
   return (
     <>
         <Nav/>
+        <Container10/> 
         {/* <Dropdown/> */}
         <Summary/>
         <Main/>
