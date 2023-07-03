@@ -30,7 +30,7 @@ Ante la creciente necesidad de soluciones tecnológicas para enfrentar los desaf
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](.\src\assets\project.png)
 
 ## Comandos usados: 
 npm run dev
