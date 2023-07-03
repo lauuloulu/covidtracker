@@ -10,13 +10,16 @@ function App() {
 
   return (
     <>
-       
-        <Nav/>
-        <div className="containerCountries">
-        <Summary/>
-        <Container10/>
+       <div className="nav">
+         <Nav/>
         </div>
-        <Main/>
+        <div className="containerCountries">
+          <Summary/>
+          <Container10/>
+        </div>
+        <div className="main">
+          <Main/>
+        </div>
     </>
   )
 }

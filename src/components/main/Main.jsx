@@ -8,12 +8,16 @@ function Main() {
     return(
         <>
             <div id="main">
+
                 <Header/>
+
                 <div className="center">
                    <CountrySummary/>
                    <CardMap/>
                 </div>
+                
                 <Footer/>
+                
             </div>
         </>
     )

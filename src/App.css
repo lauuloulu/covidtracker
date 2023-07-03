@@ -1,1 +1,21 @@
+.nav{
+    display: flex;
+    background-color: rgba(193, 193, 255, 0.191);
+    width: 100%;
+}
 
+.containerCountries{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(224, 217, 217, 0.871);
+    border-top: none;
+    border-bottom: none;    
+    padding: 20px;
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    background-color: rgba(193, 193, 255, 0.191);
+    width: 100%;
+}

@@ -6,7 +6,7 @@ function CardMap (){
 
     return(
         <div className="cardmap">
-            <img src={Mapamundi} alt="mapa mundi" height={400} width={500}/>
+            <img src={Mapamundi} alt="mapa mundi" height={286} width={390}/>
         </div>
 
     );
