@@ -1,38 +1,35 @@
-import { useState } from "react";
 import './navBar.css'
-const CustomNav = ({ li }) => {
-  const [window, setWindow] = useState(false);
+import chatbox from '../../assets/chat-box.png'
+import folder from '../../assets/folder.png'
+import datamng from '../../assets/data-management.png'
+import layers from '../../assets/layers.png'
+import stats from '../../assets/stats.png'
+import world from '../../assets/world.png'
+import menubar from '../../assets/menu-bar.png'
+import menu from '../../assets/menu.png'
+import coronavirus from '../../assets/coronavirus.png'
 
-  let openClose = () => {
-    if (window === false) {
-      setWindow(true);
-    } else {
-      setWindow(false);
-    }
-  };
-  return (
-    <nav className="navbar-menu" style={{ width: window === false ? 250 : 60 }}>
-      <div className="burger" onClick={() => openClose()}>
-        <img src=".\src\assets\covid-green.svg" alt="burger" />
-      </div>
-      <ul className="navbar__list">
-        {li.map((item, i) => (
-          <div className="navbar__li-box" key={i}>
-            <img src='./src/assets/icon-chart.png' alt="chart"
-              style={{ paddingLeft: window === false ? 27 : 17 }}
-            />
-            <li
-              className="navbar__li"
-              style={{ display: window === false ? "inline-block" : "none" }}
-            >
-              
-              {item[0]}
-            </li>
-          </div>
-        ))}
-      </ul>
-    </nav>
+function Navbar(){
+  return(
+    
+       <div className='Navbar'>
+        <img className='coronavirus' src={coronavirus} alt="Coronavirus" />
+        <img className='image' src={datamng} alt="Data Management" />
+        <img className='image' src={menubar} alt="Menu Bar" />
+        <img className='image' src={menu} alt="Menu" />
+        <img className='image' src={folder} alt="Folder" />
+        <img className='image' src={layers} alt="Layers" />
+        <img className='image' src={stats} alt="Stats" />
+        <img className='image' src={world} alt="World" />
+        <img className='image' src={chatbox} alt="Chat Box" />
+        
+        
+        
+        
+        </div>
+    
   );
 };
 
-export default CustomNav;
+
+export default Navbar;
