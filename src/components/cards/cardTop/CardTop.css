@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "my font";
+    src: url("/src/assets/lanenar_Lane.woff");
+}
+
+
 .cardTop {
    background-color: whitesmoke; 
    width:100%;
@@ -6,7 +12,13 @@
    flex-direction: row;
    justify-content: space-between;
    box-shadow: 10px 10px 100px;
+   font-family: my font;
+   font-weight: bold;
 
+}
+
+.cardTop:hover{
+    transform: translateY(-10px);
 }
 
 .imagen{
