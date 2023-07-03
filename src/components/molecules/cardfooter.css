@@ -1,6 +1,6 @@
 .cardfoot{
     background-color: whitesmoke; 
-   width:100%;
+    width: 200px;
    display:flex;
    flex-direction: row;
    justify-content: space-around;
@@ -31,7 +31,7 @@
 }
 
 .imgfoot img{
-    filter: invert(100%) sepia(100%) hue-rotate(<grados>) saturate(1000%);
+    filter: invert(100%) sepia(100%) hue-rotate(360) saturate(1000%);
 }
 
 .textfoot{
@@ -51,7 +51,7 @@
 }
 
 .textnumber{
-    font: 100% sans-serif;
+    font: sans-serif;
     margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;

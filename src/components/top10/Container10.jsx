@@ -26,7 +26,7 @@ function Container10() {
     return (
         <>  <div className='padre'>
             <div>
-                <p>Top 10 Country </p>
+                <p className='top10name'>Top 10 Country </p>
             </div>
             {topTenCountries.map((country, index) => (
                 <CardTop key={index} nombre={country.country} datos={country.cases} image={country.countryInfo.flag}/>
