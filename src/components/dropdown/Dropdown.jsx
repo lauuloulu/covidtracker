@@ -1,14 +1,18 @@
 import './dropdown.css'
 import { useState, useEffect } from 'react';
 
-function Dropdown() {
+function Dropdown({ countryNameCallback }) {
     const [countries, setCountries] = useState([]);
+
+    function onCountrySelect(event) {
+        countryNameCallback(event.target.value);
+    }
 
     function showDropdown() {
         return(
             <div id="dropdown">
                 <div className="country-select-box">
-                    <select className="country-picker" id="CoronaUpdateByCountry">
+                    <select className="country-picker" id="CoronaUpdateByCountry" onChange={onCountrySelect}>
                         {
                             countries.map(country => {
                                 return (

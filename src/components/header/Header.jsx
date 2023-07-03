@@ -1,11 +1,11 @@
 import './header.css';
 import Dropdown from '../dropdown/Dropdown';
 
-function Header() {
+function Header({ countryNameCallback }) {
     return(
         <div id="header">
             
-      <Dropdown/>
+      <Dropdown countryNameCallback={countryNameCallback}/>
       
         
         </div>

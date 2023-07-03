@@ -3,16 +3,23 @@ import Header from '../header/Header'
 import CountrySummary from '../country-summary/CountrySummary'
 import Footer from '../footer/Footer'
 import CardMap from '../Map/map'
+import { useState } from 'react';
 
 function Main() {
+    const [selectedCountryName, setSelectedCountryName] = useState('Afghanistan');
+
+    const handleCountrySelectionCallback = (countryName) => {
+        setSelectedCountryName(countryName);
+    }
+
     return(
         <>
             <div id="main">
 
-                <Header/>
+                <Header countryNameCallback={handleCountrySelectionCallback}/>
 
                 <div className="center">
-                   <CountrySummary/>
+                   <CountrySummary countryName={selectedCountryName}/>
                    <CardMap/>
                 </div>
                 
