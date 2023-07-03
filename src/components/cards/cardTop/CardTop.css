@@ -1,20 +1,31 @@
 @font-face {
     font-family: "my font";
+    src: url("../../assets/lanenar_Lane.woff");
+}
+
+@font-face {
+    font-family: "my font";
     src: url("/src/assets/lanenar_Lane.woff");
 }
 
 
 .cardTop {
-   background-color: whitesmoke; 
+   background-color: white; 
+   font-family: "my font";
    width:100%;
-   border-radius: 0px;
+   border-radius: 5px;
+   margin: 5px;
    display:flex;
    flex-direction: row;
    justify-content: space-between;
-   box-shadow: 10px 10px 100px;
+   box-shadow: 10px 10px 100px rgb(213, 213, 239);
    font-family: my font;
    font-weight: bold;
 
+}
+
+.cardTop:hover{
+    transform: translateY(-10px);
 }
 
 .cardTop:hover{
@@ -31,6 +42,7 @@
 
 .textPais {
     margin-right: 150px;
+    margin-left: 5px;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;

@@ -3,16 +3,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
 }
 
 #cardfootcontainer {
-    height: 50%;
+   
     width: 100%;
-    display: flex; 
-    
-
+    height: auto;
+    display: flex;
+    justify-items: space-between;
+    font-size: 80%;
+    margin-left: 30px;
 }
 
-#cardfootcontainer > div {
-    place-self: center stretch;
-}

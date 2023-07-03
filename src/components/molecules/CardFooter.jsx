@@ -6,7 +6,7 @@ function CardFooter ({ title, counter, color}){
 
 
     return(
-        <div className="cardfoot">
+        <div className="cardfoot" width={200}>
             <div className="imagefoot">
                 <img src={Covidlogo} height={50} width={50}  alt="covid icon" style={{ filter: `invert(100%) sepia(100%) hue-rotate(${color}) saturate(1000%)` }}/>
             </div >

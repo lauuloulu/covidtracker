@@ -1,4 +1,3 @@
-
 import './App.css'
 import Nav from './components/nav/Nav'
 import Summary from './components/summary/Summary'
@@ -11,13 +10,16 @@ function App() {
 
   return (
     <>
-       
-        <Nav/>
-        <div className="containerCountries">
-        <Summary/>
-        <Container10/>
+       <div className="nav">
+         <Nav/>
         </div>
-        <Main/>
+        <div className="containerCountries">
+          <Summary/>
+          <Container10/>
+        </div>
+        <div className="main">
+          <Main/>
+        </div>
     </>
   )
 }

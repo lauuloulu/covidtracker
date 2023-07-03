@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "font footer";
+    src: url("../../assets/themify.woff");
+}
+
 .cardfoot{
     background-color: whitesmoke; 
    width:25%;
@@ -40,14 +45,14 @@
 
 .texttitle{
     margin-right: 100px;
-    font: 120% sans-serif;
+    font: 120% "font footer";
     margin: 0;
     margin-top: 10px;
 
 }
 
 .textnumber{
-    font: 200% sans-serif;
+    font: 150% "font footer";
     margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;
