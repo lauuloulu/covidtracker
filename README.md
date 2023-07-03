@@ -26,3 +26,18 @@ Ante la creciente necesidad de soluciones tecnológicas para enfrentar los desaf
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
+
+## Authors
+
+- [@mariene33](https://github.com/mariene33)
+
+- [@lauuloulu](https://github.com/lauuloulu)
+
+- [@MiriamVarela](https://github.com/MiriamVarela)
+
+- [@Andre-899](https://github.com/Andre-889)
+
+- [@helenaponted](https://github.com/helenaponted)
+
+
+
