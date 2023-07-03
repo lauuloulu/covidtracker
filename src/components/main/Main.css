@@ -1,4 +1,20 @@
 #main {
     flex: 1 0 0;
-    background-color: rgb(61, 209, 71);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+#country-summary {
+    height: 50%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: .5rem;
+}
+
+#country-summary > div {
+    place-self: center stretch;
 }
