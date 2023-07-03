@@ -9,5 +9,10 @@ Ante la creciente necesidad de soluciones tecnológicas para enfrentar los desaf
 
 [Documentation](https://disease.sh/docs/)
 
+🚧 Proyecto en construcción 🚧
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
