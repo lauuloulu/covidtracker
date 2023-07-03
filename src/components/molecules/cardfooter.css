@@ -1,6 +1,10 @@
-.cardfoot{
+@font-face {
+    font-family: "font footer";
+    src: url("../../assets/themify.woff");
+}
+
+.cardfoot {
     background-color: whitesmoke; 
-    width: 200px;
    display:flex;
    flex-direction: row;
    justify-content: space-around;
@@ -10,6 +14,7 @@
   box-sizing: border-box;
   transform: translateY(0);
   margin: 2px;
+  width: 800px;
 }
 
 .cardfoot:hover{
@@ -43,7 +48,7 @@
 
 .texttitle{
     margin-right: 100px;
-    font: 60% sans-serif;
+    font: 60% "font footer";
     margin: 0;
     width: 100%;
     margin-top: 10px;
@@ -51,7 +56,8 @@
 }
 
 .textnumber{
-    font: sans-serif;
+    font: "font footer";
+    font-weight: bold;
     margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;
