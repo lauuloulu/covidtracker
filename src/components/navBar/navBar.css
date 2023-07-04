@@ -12,6 +12,12 @@
   padding-bottom: 12%;
 }
 
+.image:hover {
+  background-image: linear-gradient(rgba(82, 82, 204, 0.4) 0 0);
+  padding: 10%;
+  
+}
+
 .image{
   width: 20px;
 }
