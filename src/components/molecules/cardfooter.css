@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "font footer";
+    src: url("../../assets/themify.woff");
+}
+
+.cardfoot {
+    background-color: whitesmoke; 
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   box-shadow: 0 0 90px 6px #CEEBF6;
+   overflow: hidden;
+  transition: transform .3s;
+  box-sizing: border-box;
+  transform: translateY(0);
+  margin: 2px;
+  width: 800px;
+}
+
+.cardfoot:hover{
+    transform: translateY(-10px);
+}
+
+.imagefoot{
+
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.imagefoot:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: 4s ease-in-out;
+}
+
+.imgfoot img{
+    filter: invert(100%) sepia(100%) hue-rotate(360) saturate(1000%);
+}
+
+.textfoot{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+.texttitle{
+    margin-right: 100px;
+    font: 60% "font footer";
+    margin: 0;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.textnumber{
+    font: "font footer";
+    font-weight: bold;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}

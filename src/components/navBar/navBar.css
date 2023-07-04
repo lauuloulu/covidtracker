@@ -1,0 +1,21 @@
+
+.Navbar{
+  background-color: #F7F8FC;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 100%;
+  align-content: space-evenly;
+  align-items: center;
+  padding-top: 5%;
+  gap: 40px;
+  padding-bottom: 12%;
+}
+
+.image{
+  width: 20px;
+}
+
+.coronavirus{
+  width: 50px;
+}

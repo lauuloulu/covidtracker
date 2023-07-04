@@ -1,17 +1,34 @@
-import './Main.css' 
-import Card from '../card/Card'
+import './Main.css'
+import Header from '../header/Header'
+import CountrySummary from '../country-summary/CountrySummary'
+import Footer from '../footer/Footer'
+import CardMap from '../Map/map'
+import { useState } from 'react';
 
 function Main() {
+    const [selectedCountryName, setSelectedCountryName] = useState('Afghanistan');
+
+    const handleCountrySelectionCallback = (countryName) => {
+        setSelectedCountryName(countryName);
+    }
+
     return(
         <>
             <div id="main">
-                <Card title='Title' counter='1234'/>
-                <Card title='Title2' counter='2'/>
-                <Card title='Title3' counter='3'/>
-                <Card title='Title4' counter='4'/>
+
+                <Header countryNameCallback={handleCountrySelectionCallback}/>
+
+                <div className="center">
+                   <CountrySummary countryName={selectedCountryName}/>
+                   <CardMap/>
+                </div>
+                
+                <Footer/>
+                
             </div>
         </>
     )
 }
+
 
 export default Main
