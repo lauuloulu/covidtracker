@@ -2,7 +2,7 @@
     display: flex;
     background-color: rgba(193, 193, 255, 0.191);
     width: 10%;
-    height: 1000px;
+    height: 680px;
 
 }
 
@@ -13,7 +13,7 @@
     border-top: none;
     border-bottom: none;    
     padding: 20px;
-    height: 970px;
+    height: 670px;
     width: 60%;
     background-color: white;
     overflow-y: scroll;
